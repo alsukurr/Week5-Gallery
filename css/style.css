@@ -1,0 +1,142 @@
+.article,aside,details,figcaption,figure,footer,header,hgroup,nav,section,summary{display:block;}audio,canvas,video{display:inline-block;}audio:not([controls]){display:none;height:0;}[hidden]{display:none;}html{font-family:sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;}a:focus{outline:thin dotted;}a:active,a:hover{outline:0;}h1{font-size:2em;}abbr[title]{border-bottom:1px dotted;}b,strong{font-weight:700;}dfn{font-style:italic;}mark{background:#ff0;color:#000;}code,kbd,pre,samp{font-family:monospace, serif;font-size:1em;}pre{white-space:pre-wrap;word-wrap:break-word;}q{quotes:\201C \201D \2018 \2019;}small{font-size:80%;}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline;}sup{top:-.5em;}sub{bottom:-.25em;}img{border:0;}svg:not(:root){overflow:hidden;}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em;}button,input,select,textarea{font-family:inherit;font-size:100%;margin:0;}button,input{line-height:normal;}button,html input[type=button],/* 1 */
+	input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}button[disabled],input[disabled]{cursor:default;}input[type=checkbox],input[type=radio]{box-sizing:border-box;padding:0;}input[type=search]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box;}input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-decoration{-webkit-appearance:none;}textarea{overflow:auto;vertical-align:top;}table{border-collapse:collapse;border-spacing:0;}body,figure{margin:0;}legend,button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0;}
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+ }
+
+.clearfix:after {
+   content: " ";
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}
+
+/* BODY */
+body{
+ 	background-image: url(../images/woodgrain.jpg);
+ 	background-size: cover;
+ 	background-position: center;
+ 	background-attachment: fixed;
+ }
+
+h1 {
+	font-family: 'Grand Hotel', cursive;
+	font-size: 60px;
+	line-height: 0px;
+	transform: rotate(-10deg);
+	margin-top: 20px;
+	margin-bottom: 90px;
+}
+
+svg {
+	height: 50px;
+	display: inline-block;
+	float: left;
+	margin-right: 15px;
+	position: relative;
+	bottom: 15px;
+}
+
+span {
+	padding-top: 10px;
+}
+
+h3 {
+	float: right;
+	width: 100%;
+	margin: 10px 0;
+}
+
+p {
+	margin-bottom: 30px;
+}
+
+/* CONTAINER */
+.container {
+ 	width: 960px;
+ 	margin: 0 auto;
+ 	/*border:green solid;*/
+ }
+
+/* CARDS */
+.card {
+	position: relative;
+	background-color: #fffaf0;
+	width: 100%;
+	margin-top: 100px;
+	padding: 20px;
+	box-shadow: 6px 6px 6px #333;
+	z-index: 999;
+}
+.card2 {
+	width: 960px;
+	height: 630px;
+	position: absolute;
+	top: 80px;
+	background: #F1D4AF;
+	transform: rotate(-10deg);
+	box-shadow: 3px 3px 3px #333;
+	z-index: 980;
+}
+.card3 {
+	width: 960px;
+	height: 630px;
+	position: absolute;
+	top: 90px;
+	background: #C5E0DC;
+	transform: rotate(355deg);
+	box-shadow: 3px 3px 3px #333;
+	z-index: 990;
+}
+
+ /* GALLERY */
+.gallery {
+	float: left;
+	width: 65%;
+	padding: 10px;
+}
+
+.full img {
+	width: 100%;
+}
+
+.full img:hover {
+	cursor: pointer;
+}
+
+ /* INFO */
+.info {
+	font-family: 'Playfair Display', serif;
+	letter-spacing: 2px;
+ 	float: right;
+ 	width: 34%;
+ 	padding: 100px 10px 10px 10px;
+ }
+
+.selected {
+	/*border: red 2px solid;*/
+	display: inline-block;
+	box-shadow:  3px 3px 3px #888888;
+}
+.miniPic {
+	text-align: center;
+}
+
+.miniPic a {
+	display: inline-block;
+	padding: 0;
+	margin: 0;
+	height: 79px;
+}
+
+.miniPic img {
+	padding: 2px;
+	border: 2px solid #fff;
+}
+
+.miniPic img:hover {
+	border: 2px solid #333;
+}
+
