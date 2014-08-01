@@ -111,6 +111,7 @@ p {
 	z-index: 990;
 }
 
+
  /* GALLERY */
 .gallery {
 	float: left;
@@ -164,5 +165,8 @@ p {
 
 .miniPic img:hover {
 	border: 2px solid #333;
+}
+ul li{
+	font-size: 14px;
 }
 
