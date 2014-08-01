@@ -19,15 +19,28 @@ body{
  	background-size: cover;
  	background-position: center;
  	background-attachment: fixed;
+ 	color: #333;
  }
 
 h1 {
 	font-family: 'Grand Hotel', cursive;
-	font-size: 60px;
+	font-size: 112px;
 	line-height: 0px;
-	transform: rotate(-10deg);
+	transform: rotate(-7deg);
+	font-weight: 100;
+	color: #F38A8A;
+	text-shadow: 4px 4px 4px #333;
 	margin-top: 20px;
-	margin-bottom: 90px;
+	/* margin-bottom: 90px; */
+	position: absolute;
+	top: 65px;
+}
+#title {
+	float: right;
+	font-family: 'Playfair Display', serif;
+	font-size: 65px;
+	display: inline-block;
+	padding: 5px 40px 0px 0px;
 }
 
 svg {
@@ -48,6 +61,13 @@ h3 {
 	width: 100%;
 	margin: 10px 0;
 }
+h4 {
+	font-family: 'Playfair Display', serif;
+	text-align: left;
+	font-size: 14px;
+	padding: 0px;
+	margin: 5px;
+}
 
 p {
 	margin-bottom: 30px;
@@ -65,7 +85,7 @@ p {
 	position: relative;
 	background-color: #fffaf0;
 	width: 100%;
-	margin-top: 100px;
+	margin-top: 65px;
 	padding: 20px;
 	box-shadow: 6px 6px 6px #333;
 	z-index: 999;
@@ -75,7 +95,7 @@ p {
 	height: 630px;
 	position: absolute;
 	top: 80px;
-	background: #F1D4AF;
+	background: #D88A8A;
 	transform: rotate(-10deg);
 	box-shadow: 3px 3px 3px #333;
 	z-index: 980;
@@ -84,7 +104,7 @@ p {
 	width: 960px;
 	height: 630px;
 	position: absolute;
-	top: 90px;
+	top: 63px;
 	background: #C5E0DC;
 	transform: rotate(355deg);
 	box-shadow: 3px 3px 3px #333;
@@ -100,6 +120,7 @@ p {
 
 .full img {
 	width: 100%;
+	max-height: 365px;
 }
 
 .full img:hover {
@@ -112,7 +133,12 @@ p {
 	letter-spacing: 2px;
  	float: right;
  	width: 34%;
- 	padding: 100px 10px 10px 10px;
+ 	padding: 10px 0px 0px 4px;
+ }
+ .info span {
+ 	font-size: 16px;
+ 	position: relative;
+ 	top: -10px;
  }
 
 .selected {
@@ -128,7 +154,7 @@ p {
 	display: inline-block;
 	padding: 0;
 	margin: 0;
-	height: 79px;
+	height: 75px;
 }
 
 .miniPic img {
